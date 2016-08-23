@@ -1,0 +1,53 @@
+body {
+  background-image: url("http://jmvtestsite.com/wp-content/uploads/2016/07/starry-sky-389083_1280.jpg");
+}
+
+top-banner {
+  width : 100%;
+  position: fixed;
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  top: 0;
+  left : 0;
+  border: 3px solid #73AD21;
+  background-color: red;
+}
+
+top-banner:hover {
+  background-color: yellow;
+}
+
+character-name {
+  display: block;
+  padding: 10px;
+width:400px;
+margin-top: 3em;
+margin-left: auto;
+margin-right: auto;
+border: 3px solid #73AD21;
+text-align: center;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: bold;
+background-color: white;
+}
+
+img {
+  width: 425px;
+  height: 425px;
+  display: block;
+  margin: 0 auto;
+}
+/* block and margin 0 auto, it will center */
+character-description {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  margin: 0 auto;
+  border: 3px solid #73AD21;
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 14px;
+  background-color: yellow;
+
+}
