@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hjs-dev-server",
-    "build": "webpack"
+    "build": "NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joanmarieverba/marvel-react.git"
+    "url": "git+https://github.com/joanmarieverba/marvel-react-me.git"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/joanmarieverba/marvel-react/issues"
   },
-  "homepage": "https://github.com/joanmarieverba/marvel-react#readme",
+  "homepage": "https://github.com/joanmarieverba/marvel-react-me#readme",
   "dependencies": {
     "file-loader": "^0.9.0",
     "hjs-webpack": "^8.3.0",
